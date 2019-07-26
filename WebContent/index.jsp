@@ -1,6 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@ page import="com.marlabs.demo.Test" %>    
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -10,7 +7,7 @@
 <style>
 	h4 {
 		font-size: 16px;
-		color: red;
+		color: brown;
 		border: dashed 2px green;
 	}
 </style>
@@ -20,7 +17,7 @@
 <jsp:useBean id="obj" class="com.marlabs.demo.Test" />
 <h4>
 <%
-	out.println("Hello there!");
+	out.println(" Hello there! How are You ?? ");
 	out.println(obj.getData());
 %>
 </h4>
